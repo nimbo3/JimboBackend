@@ -1,19 +1,16 @@
 from django.http import HttpResponse
 import json
 
-from JimboBackend import settings
-
-
-def search(request):
-    query = request.GET.get("q")
-
-    if query is None or query is "":
-        return HttpResponse(json.dumps({
-            "search": ""
-        }))
-
-    return HttpResponse(query)
+from elastic.views import search
 
 
 def index(request):
-    return HttpResponse(json.dumps((settings.ES_CONNECTIONS.get("default").get("hosts"))))
+    return HttpResponse(search(request.GET.get("q")), content_type="application/json")
+
+
+def login(request):
+    return None
+
+
+def register(request):
+    return None

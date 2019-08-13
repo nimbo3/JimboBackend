@@ -20,5 +20,7 @@ from SearchEngine import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('search/', views.search),
+    path('register/', views.register),
+    path('login/', views.login),
     path('', views.index),
 ]
