@@ -1,6 +1,8 @@
 from django.http import HttpResponse
 import json
 
+from JimboBackend import settings
+
 
 def search(request):
     query = request.GET.get("q")
@@ -14,4 +16,4 @@ def search(request):
 
 
 def index(request):
-    return HttpResponse("salam")
+    return HttpResponse(json.dumps((settings.ES_CONNECTIONS.get("default").get("hosts"))))

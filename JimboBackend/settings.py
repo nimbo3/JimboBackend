@@ -14,6 +14,7 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import SearchEngine
+from SearchEngine.indexes.Page import Page
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -121,14 +122,6 @@ ES_CONNECTIONS = {
         'hosts': ["http://144.76.119.111:9200", "http://144.76.24.115:9200", "http://5.9.110.169:9200"],
     }
 }
-
-ES_INDEXES = {
-    'default': [
-        ('page', "SearchEngine.indexes.Page"),
-    ]
-}
-
-ES_DEFAULT_BATCH_SIZE = 1000
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
