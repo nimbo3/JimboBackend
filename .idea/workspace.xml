@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c16886a1-f971-4b54-8ee3-35594157a240" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JimboBackend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/JimboBackend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.Test: accounts.tests.AccountsTest.test_create_user">
+  <component name="RunManager" selected="Django tests.Test: accounts.tests.AccountsTest.test_create_user_with_short_password">
     <configuration name="Test: accounts.tests.AccountsTest" type="DjangoTestsConfigurationType" temporary="true">
       <module name="JimboBackend" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,6 +94,26 @@
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Test: accounts.tests.AccountsTest.test_create_user_with_short_password" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="JimboBackend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="accounts.tests.AccountsTest.test_create_user_with_short_password" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="JimboBackend" type="Python.DjangoServer" factoryName="Django server">
       <module name="JimboBackend" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,8 +140,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Django tests.Test: accounts.tests.AccountsTest.test_create_user" />
+        <item itemvalue="Django tests.Test: accounts.tests.AccountsTest.test_create_user_with_short_password" />
         <item itemvalue="Django tests.Test: accounts.tests.AccountsTest" />
+        <item itemvalue="Django tests.Test: accounts.tests.AccountsTest.test_create_user" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565675729154</updated>
       <workItem from="1565675954308" duration="13322000" />
-      <workItem from="1565761680397" duration="2457000" />
+      <workItem from="1565761680397" duration="3411000" />
     </task>
     <task id="LOCAL-00001" summary="create serializers for account">
       <created>1565763968873</created>
@@ -143,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565763968873</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create accounts test and views">
+      <created>1565764395465</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565764395465</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +194,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create serializers for account" />
-    <option name="LAST_COMMIT_MESSAGE" value="create serializers for account" />
+    <MESSAGE value="create accounts test and views" />
+    <option name="LAST_COMMIT_MESSAGE" value="create accounts test and views" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -174,7 +205,8 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/JimboBackend$Test__accounts_tests_AccountsTest.coverage" NAME="Test: accounts.tests.AccountsTest Coverage Results" MODIFIED="1565764208084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/JimboBackend$Test__accounts_tests_AccountsTest_test_create_user.coverage" NAME="Test: accounts.tests.AccountsTest.test_create_user Coverage Results" MODIFIED="1565764307494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/JimboBackend$Test__accounts_tests_AccountsTest_test_create_user_with_short_password.coverage" NAME="Test: accounts.tests.AccountsTest.test_create_user_with_short_password Coverage Results" MODIFIED="1565765576751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/JimboBackend$Test__accounts_tests_AccountsTest.coverage" NAME="Test: accounts.tests.AccountsTest Coverage Results" MODIFIED="1565764731768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/JimboBackend$Test__accounts_tests_AccountsTest_test_create_user.coverage" NAME="Test: accounts.tests.AccountsTest.test_create_user Coverage Results" MODIFIED="1565764510606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
