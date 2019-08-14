@@ -20,8 +20,6 @@ from SearchEngine import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('search/', views.search),
-    path('', views.index),
-    url(r'^users/', include('accounts.urls')),
+    url(r'^/', include('accounts.urls')),
 ]
 
