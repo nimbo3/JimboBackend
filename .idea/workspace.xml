@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c16886a1-f971-4b54-8ee3-35594157a240" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JimboBackend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/JimboBackend/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JimboBackend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/JimboBackend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchEngine/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngine/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elastic/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/elastic/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.Test: accounts.tests.AccountsTest">
+  <component name="RunManager" selected="Django server.JimboBackend">
     <configuration name="Test: accounts.tests.AccountsTest" type="DjangoTestsConfigurationType" temporary="true">
       <module name="JimboBackend" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,7 +197,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565675729154</updated>
       <workItem from="1565675954308" duration="13322000" />
-      <workItem from="1565761680397" duration="6070000" />
+      <workItem from="1565761680397" duration="16063000" />
     </task>
     <task id="LOCAL-00001" summary="create serializers for account">
       <created>1565763968873</created>
@@ -232,7 +234,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565770295183</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change routing">
+      <created>1565770390229</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565770390229</updated>
+    </task>
+    <task id="LOCAL-00007" summary="all tests passed">
+      <created>1565770432612</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1565770432612</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +272,9 @@
     <MESSAGE value="create accounts test and views" />
     <MESSAGE value="add test for account" />
     <MESSAGE value="create user creation and user login" />
-    <option name="LAST_COMMIT_MESSAGE" value="create user creation and user login" />
+    <MESSAGE value="change routing" />
+    <MESSAGE value="all tests passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="all tests passed" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
