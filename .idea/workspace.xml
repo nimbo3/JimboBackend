@@ -4,7 +4,7 @@
     <list default="true" id="c16886a1-f971-4b54-8ee3-35594157a240" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JimboBackend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/JimboBackend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SearchEngine/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngine/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
     </list>
@@ -199,7 +199,7 @@
       <updated>1565675729154</updated>
       <workItem from="1565675954308" duration="13322000" />
       <workItem from="1565761680397" duration="20900000" />
-      <workItem from="1566034546469" duration="11414000" />
+      <workItem from="1566034546469" duration="16114000" />
     </task>
     <task id="LOCAL-00001" summary="create serializers for account">
       <created>1565763968873</created>
@@ -257,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565851263529</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="create user">
+      <created>1566117200075</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1566117200075</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +291,8 @@
     <MESSAGE value="change routing" />
     <MESSAGE value="all tests passed" />
     <MESSAGE value="authentication and search api completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="authentication and search api completed" />
+    <MESSAGE value="create user" />
+    <option name="LAST_COMMIT_MESSAGE" value="create user" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

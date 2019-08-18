@@ -5,7 +5,6 @@ from django.contrib.auth.models import User
 
 class UserSerializer(serializers.ModelSerializer):
     email = serializers.EmailField(
-        required=True,
         validators=[UniqueValidator(queryset=User.objects.all())]
     )
     username = serializers.CharField(
