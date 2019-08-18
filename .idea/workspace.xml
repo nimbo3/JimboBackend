@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c16886a1-f971-4b54-8ee3-35594157a240" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JimboBackend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/JimboBackend/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -196,7 +195,7 @@
       <updated>1565675729154</updated>
       <workItem from="1565675954308" duration="13322000" />
       <workItem from="1565761680397" duration="20900000" />
-      <workItem from="1566034546469" duration="19363000" />
+      <workItem from="1566034546469" duration="19861000" />
     </task>
     <task id="LOCAL-00001" summary="create serializers for account">
       <created>1565763968873</created>
@@ -275,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566129789670</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="for run in server">
+      <created>1566134118091</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1566134118091</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +311,8 @@
     <MESSAGE value="create user" />
     <MESSAGE value="run on server" />
     <MESSAGE value="update requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="update requirements" />
+    <MESSAGE value="for run in server" />
+    <option name="LAST_COMMIT_MESSAGE" value="for run in server" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
