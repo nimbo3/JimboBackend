@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c16886a1-f971-4b54-8ee3-35594157a240" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/JimboBackend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/JimboBackend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +196,7 @@
       <updated>1565675729154</updated>
       <workItem from="1565675954308" duration="13322000" />
       <workItem from="1565761680397" duration="20900000" />
-      <workItem from="1566034546469" duration="19861000" />
+      <workItem from="1566034546469" duration="21169000" />
     </task>
     <task id="LOCAL-00001" summary="create serializers for account">
       <created>1565763968873</created>
@@ -281,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566134118091</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="maskhare">
+      <created>1566134617888</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1566134617888</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +320,8 @@
     <MESSAGE value="run on server" />
     <MESSAGE value="update requirements" />
     <MESSAGE value="for run in server" />
-    <option name="LAST_COMMIT_MESSAGE" value="for run in server" />
+    <MESSAGE value="maskhare" />
+    <option name="LAST_COMMIT_MESSAGE" value="maskhare" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
