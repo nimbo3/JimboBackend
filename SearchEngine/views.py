@@ -1,7 +1,5 @@
 import json
 
-from django.contrib.auth import login
-from django.contrib.auth.models import User
 from django.http import HttpResponse
 
 from elastic.views import search
