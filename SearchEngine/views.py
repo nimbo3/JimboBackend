@@ -11,6 +11,12 @@ def index(request):
     language = request.GET.get("lang")
     category = request.GET.get("cat")
     search = Search(query=query, language=language, category=category)
-    search.save()
+    if request.user.is_authenticated:
+        search.user = request.user
+    search.save()  # Saving search query
+
     result = search_query(search)
+    search.result = result
+    search.save()  # Saving search result
+
     return HttpResponse(json.dumps(result), content_type="application/json")
