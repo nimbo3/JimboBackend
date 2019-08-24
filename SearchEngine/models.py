@@ -1,5 +1,7 @@
 from django.contrib.auth.models import User
 from django.db import models
+from jsonfield import JSONField
+
 
 class Search(models.Model):
 
@@ -25,4 +27,5 @@ class Search(models.Model):
     query = models.CharField(max_length=512, null=False)
     language = models.IntegerField(null=True, choices=LANGUAGE_CHOICES)
     category = models.IntegerField(null=True, choices=CATEGORY_CHOICES)
-    result = models.TextField()
+    result = JSONField()
+
