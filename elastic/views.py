@@ -9,7 +9,7 @@ port = "9200"
 index = "page"
 
 
-def search(query):
+def search_query(search):
     start_time = time.time()
     res = requests.post("http://%s:%s/%s/_search" % (host, port, index), headers={
         "Content-Type": "application/json"
@@ -21,49 +21,49 @@ def search(query):
                     {
                         "match": {
                             "text": {
-                                "query": query
+                                "query": search.query
                             }
                         }
                     },
                     {
                         "match": {
                             "title": {
-                                "query": query
+                                "query": search.query
                             }
                         }
                     },
                     {
                         "match": {
                             "url": {
-                                "query": query
+                                "query": search.query
                             }
                         }
                     },
                     {
                         "match": {
                             "h1List": {
-                                "query": query
+                                "query": search.query
                             }
                         }
                     },
                     {
                         "match": {
                             "h2List": {
-                                "query": query
+                                "query": search.query
                             }
                         }
                     },
                     {
                         "match": {
                             "h3to6List": {
-                                "query": query
+                                "query": search.query
                             }
                         }
                     },
                     {
                         "match": {
                             "metaTags": {
-                                "query": query
+                                "query": search.query
                             }
                         }
                     }
