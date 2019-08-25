@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c16886a1-f971-4b54-8ee3-35594157a240" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elastic/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/elastic/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +199,7 @@
       <workItem from="1566034546469" duration="21205000" />
       <workItem from="1566574286685" duration="57000" />
       <workItem from="1566615177607" duration="15447000" />
-      <workItem from="1566705150169" duration="1444000" />
+      <workItem from="1566705150169" duration="2690000" />
     </task>
     <task id="LOCAL-00001" summary="create serializers for account">
       <created>1565763968873</created>
@@ -354,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566707044631</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update requirements">
+      <created>1566707285465</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1566707285465</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +391,6 @@
     <MESSAGE value="authentication and search api completed" />
     <MESSAGE value="create user" />
     <MESSAGE value="run on server" />
-    <MESSAGE value="update requirements" />
     <MESSAGE value="for run in server" />
     <MESSAGE value="maskhare" />
     <MESSAGE value="create search log models" />
@@ -394,7 +401,8 @@
     <MESSAGE value="add search engine to installed apps" />
     <MESSAGE value="change result models and add to admin panel" />
     <MESSAGE value="create run script" />
-    <option name="LAST_COMMIT_MESSAGE" value="create run script" />
+    <MESSAGE value="update requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="update requirements" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

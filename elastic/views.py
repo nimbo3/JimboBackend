@@ -4,7 +4,7 @@ import requests
 import time
 from django.shortcuts import render
 
-host = "144.76.119.111"
+host = "144.76.24.115"
 port = "9200"
 index = "page"
 
