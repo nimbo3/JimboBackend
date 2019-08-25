@@ -199,7 +199,7 @@
       <workItem from="1566034546469" duration="21205000" />
       <workItem from="1566574286685" duration="57000" />
       <workItem from="1566615177607" duration="15447000" />
-      <workItem from="1566705150169" duration="2690000" />
+      <workItem from="1566705150169" duration="3654000" />
     </task>
     <task id="LOCAL-00001" summary="create serializers for account">
       <created>1565763968873</created>
@@ -362,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566707285465</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="change elastic search server">
+      <created>1566716870998</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1566716870998</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +409,8 @@
     <MESSAGE value="change result models and add to admin panel" />
     <MESSAGE value="create run script" />
     <MESSAGE value="update requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="update requirements" />
+    <MESSAGE value="change elastic search server" />
+    <option name="LAST_COMMIT_MESSAGE" value="change elastic search server" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
