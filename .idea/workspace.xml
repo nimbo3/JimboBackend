@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c16886a1-f971-4b54-8ee3-35594157a240" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/script.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +198,7 @@
       <workItem from="1566034546469" duration="21205000" />
       <workItem from="1566574286685" duration="57000" />
       <workItem from="1566615177607" duration="15447000" />
-      <workItem from="1566705150169" duration="1202000" />
+      <workItem from="1566705150169" duration="1444000" />
     </task>
     <task id="LOCAL-00001" summary="create serializers for account">
       <created>1565763968873</created>
@@ -348,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566636275842</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="create run script">
+      <created>1566707044631</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1566707044631</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
