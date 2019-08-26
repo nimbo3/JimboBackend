@@ -29,9 +29,9 @@ class UserLogin(APIView):
         password = json.loads(request.body).get("password")
         errors = {}
 
-        if password is None:
+        if password is None or password is "":
             errors["password"] = "this field is required"
-        if username is None:
+        if username is None or username is "":
             errors["username"] = "this field is required"
         if "password" in errors or "username" in errors:
             return Response(errors, status=status.HTTP_400_BAD_REQUEST)
