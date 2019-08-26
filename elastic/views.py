@@ -4,8 +4,8 @@ import requests
 import time
 from django.shortcuts import render
 
-host = "5.9.110.169"
-port = "9200"
+host = "5.9.110.169"    # Address of elastic search node
+port = "9200"           # Elastic search rest api port
 index = "page"
 
 
