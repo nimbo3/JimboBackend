@@ -1,6 +1,7 @@
 from django.db import models
 import json
 
+
 class Page:
     def __init__(self, **kwargs):
         self.title = kwargs.get("title")
