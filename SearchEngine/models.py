@@ -27,5 +27,6 @@ class Search(models.Model):
     query = models.CharField(max_length=512, null=False)
     language = models.IntegerField(null=True, choices=LANGUAGE_CHOICES)
     category = models.IntegerField(null=True, choices=CATEGORY_CHOICES)
+    searchTime = models.DateTimeField(auto_now_add=True)
     result = JSONField()
 

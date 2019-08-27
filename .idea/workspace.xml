@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c16886a1-f971-4b54-8ee3-35594157a240" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchEngine/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngine/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -200,7 +201,8 @@
       <workItem from="1566574286685" duration="57000" />
       <workItem from="1566615177607" duration="15447000" />
       <workItem from="1566705150169" duration="4899000" />
-      <workItem from="1566808304486" duration="13256000" />
+      <workItem from="1566808304486" duration="15523000" />
+      <workItem from="1566893679679" duration="2165000" />
     </task>
     <task id="LOCAL-00001" summary="create serializers for account">
       <created>1565763968873</created>
@@ -398,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566828090485</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="ready for publish">
+      <created>1566834068661</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1566834068661</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +427,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create serializers for account" />
     <MESSAGE value="create accounts test and views" />
     <MESSAGE value="add test for account" />
     <MESSAGE value="create user creation and user login" />
@@ -443,7 +451,8 @@
     <MESSAGE value="get auth token from header and save to db" />
     <MESSAGE value="login completed" />
     <MESSAGE value="empty password and username verification bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="empty password and username verification bug fixed" />
+    <MESSAGE value="ready for publish" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready for publish" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
