@@ -25,7 +25,7 @@ class Search(models.Model):
 
     user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
     query = models.CharField(max_length=512, null=False)
-    language = models.CharField(null=True, max_length=10, choices=LANGUAGE_CHOICES)
-    category = models.CharField(null=True, choices=CATEGORY_CHOICES)
+    language = models.CharField(null=True, max_length=3, choices=LANGUAGE_CHOICES)
+    category = models.CharField(null=True, max_length=11, choices=CATEGORY_CHOICES)
     search_time = models.DateTimeField(auto_now_add=True, null=True)
     result = JSONField()

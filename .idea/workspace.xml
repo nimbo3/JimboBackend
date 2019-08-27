@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c16886a1-f971-4b54-8ee3-35594157a240" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SearchEngine/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngine/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SearchEngine/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngine/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SearchEngine/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngine/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elastic/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/elastic/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="c16886a1-f971-4b54-8ee3-35594157a240" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +198,7 @@
       <workItem from="1566615177607" duration="15447000" />
       <workItem from="1566705150169" duration="4899000" />
       <workItem from="1566808304486" duration="15523000" />
-      <workItem from="1566893679679" duration="6194000" />
+      <workItem from="1566893679679" duration="7015000" />
     </task>
     <task id="LOCAL-00001" summary="create serializers for account">
       <created>1565763968873</created>
@@ -416,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566899027665</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="change language and category choices">
+      <created>1566903871757</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1566903871757</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add test for account" />
     <MESSAGE value="create user creation and user login" />
     <MESSAGE value="change routing" />
     <MESSAGE value="all tests passed" />
@@ -461,7 +461,8 @@
     <MESSAGE value="empty password and username verification bug fixed" />
     <MESSAGE value="ready for publish" />
     <MESSAGE value="add time to search" />
-    <option name="LAST_COMMIT_MESSAGE" value="add time to search" />
+    <MESSAGE value="change language and category choices" />
+    <option name="LAST_COMMIT_MESSAGE" value="change language and category choices" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
