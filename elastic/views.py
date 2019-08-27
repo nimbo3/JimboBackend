@@ -21,49 +21,56 @@ def search_query(search):
                     {
                         "match": {
                             "text": {
-                                "query": search.query
+                                "query": search.query,
+                                "boost": 4.0
                             }
                         }
                     },
                     {
                         "match": {
                             "title": {
-                                "query": search.query
+                                "query": search.query,
+                                "boost": 10.0
                             }
                         }
                     },
                     {
                         "match": {
                             "url": {
-                                "query": search.query
+                                "query": search.query,
+                                "boost": 10.0
                             }
                         }
                     },
                     {
                         "match": {
                             "h1List": {
-                                "query": search.query
+                                "query": search.query,
+                                "boost": 8.0
                             }
                         }
                     },
                     {
                         "match": {
                             "h2List": {
-                                "query": search.query
+                                "query": search.query,
+                                "boost": 7.0
                             }
                         }
                     },
                     {
                         "match": {
                             "h3to6List": {
-                                "query": search.query
+                                "query": search.query,
+                                "boost": 6.0
                             }
                         }
                     },
                     {
                         "match": {
                             "metaTags": {
-                                "query": search.query
+                                "query": search.query,
+                                "boost": 5.0
                             }
                         }
                     }

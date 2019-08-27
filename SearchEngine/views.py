@@ -30,3 +30,7 @@ def index(request):
     search.save()  # Saving search result
 
     return HttpResponse(json.dumps(result), content_type="application/json")
+
+
+def history(request):
+    pass

@@ -6,27 +6,26 @@ from jsonfield import JSONField
 class Search(models.Model):
 
     LANGUAGE_CHOICES = (
-        (0, 'ar'),
-        (1, 'de'),
-        (2, 'en'),
-        (3, 'es'),
-        (4, 'fr'),
-        (5, 'fa'),
-        (6, 'ru'),
+        ('ar', 'Arabic'),
+        ('de', 'German'),
+        ('en', 'English'),
+        ('es', 'Spanish'),
+        ('fr', 'French'),
+        ('fa', 'Farsi'),
+        ('ru', 'Russian'),
     )
 
     CATEGORY_CHOICES = (
-        (0, 'sport'),
-        (1, 'health'),
-        (2, 'news'),
-        (3, 'cat4'),
-        (4, 'cat5'),
+        ('economics', 'Economics'),
+        ('health', 'Health'),
+        ('sport', 'Sport'),
+        ('technology', 'Technology'),
+        ('art', 'Art'),
     )
 
     user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
     query = models.CharField(max_length=512, null=False)
-    language = models.IntegerField(null=True, choices=LANGUAGE_CHOICES)
-    category = models.IntegerField(null=True, choices=CATEGORY_CHOICES)
-    searchTime = models.DateTimeField(auto_now_add=True)
+    language = models.CharField(null=True, max_length=10, choices=LANGUAGE_CHOICES)
+    category = models.CharField(null=True, choices=CATEGORY_CHOICES)
+    search_time = models.DateTimeField(auto_now_add=True, null=True)
     result = JSONField()
-
