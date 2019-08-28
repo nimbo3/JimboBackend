@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c16886a1-f971-4b54-8ee3-35594157a240" name="Default Changelist" comment="" />
+    <list default="true" id="c16886a1-f971-4b54-8ee3-35594157a240" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchEngine/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngine/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +201,7 @@
       <workItem from="1566615177607" duration="15447000" />
       <workItem from="1566705150169" duration="4899000" />
       <workItem from="1566808304486" duration="15523000" />
-      <workItem from="1566893679679" duration="7015000" />
+      <workItem from="1566893679679" duration="15393000" />
     </task>
     <task id="LOCAL-00001" summary="create serializers for account">
       <created>1565763968873</created>
@@ -417,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566903871757</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add max_length for category in models">
+      <created>1566905234553</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1566905234553</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +447,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create user creation and user login" />
     <MESSAGE value="change routing" />
     <MESSAGE value="all tests passed" />
     <MESSAGE value="authentication and search api completed" />
@@ -462,7 +471,8 @@
     <MESSAGE value="ready for publish" />
     <MESSAGE value="add time to search" />
     <MESSAGE value="change language and category choices" />
-    <option name="LAST_COMMIT_MESSAGE" value="change language and category choices" />
+    <MESSAGE value="add max_length for category in models" />
+    <option name="LAST_COMMIT_MESSAGE" value="add max_length for category in models" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

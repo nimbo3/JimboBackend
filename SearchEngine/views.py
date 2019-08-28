@@ -10,8 +10,8 @@ from elastic.views import search_query
 
 def index(request):
     query = request.GET.get("q")
-    language = request.GET.get("lang")
-    category = request.GET.get("cat")
+    language = request.GET.get("language")
+    category = request.GET.get("category")
     user = None
 
     token_header = request.headers.get("authorization")
