@@ -4,17 +4,14 @@ import requests
 import time
 from django.shortcuts import render
 
-host = "5.9.110.169"    # Address of elastic search node
-port = "9200"           # Elastic search rest api port
+host = "5.9.110.169"  # Address of elastic search node
+port = "9200"  # Elastic search rest api port
 index = "page"
 
 
-def search_query(search):
-    start_time = time.time()
-    res = requests.post("http://%s:%s/%s/_search" % (host, port, index), headers={
-        "Content-Type": "application/json"
-    }, json={
-        "_source": ["title", "url"],
+def query_builder(search):
+    query_object = {
+        "_source": ["title", "url", "lang"],
         "query": {
             "bool": {
                 "should": [
@@ -84,7 +81,24 @@ def search_query(search):
                 "text": {"pre_tags": ["<b>"], "post_tags": ["</b>"]}
             }
         }
-    })
+    }
+
+    if search.language is not None:
+        query_object['query']['bool']['filter'] = {
+            "term": {
+                "lang.keyword": search.language
+            }
+        }
+    print(query_object)
+    return query_object
+
+
+def search_query(search):
+    query = query_builder(search)
+    start_time = time.time()
+    res = requests.post("http://%s:%s/%s/_search" % (host, port, index), headers={
+        "Content-Type": "application/json"
+    }, json=query)
     count = res.json()['hits']['total']
     i = 0
     while count > 100:
