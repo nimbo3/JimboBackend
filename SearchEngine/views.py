@@ -19,7 +19,7 @@ def index(request):
     if len(token) != 0:
         user = token[0].user
 
-    search = Search(query=query, language=language, category=category, user=user)
+    search = Search(query=query, language=language, category=category, user=user, search_time=datetime.now())
 
     search.save()  # Saving search query
 
@@ -52,18 +52,18 @@ def history(request):
     search_history_today = Search.objects.filter(
         user=user,
         search_time__range=[today_first_second, datetime.now()]
-    ).values('query', 'search_time', 'language', 'category')
+    ).values('query', 'search_time', 'language', 'category', 'id')
     search_history_this_week = Search.objects.filter(
         user=user,
         search_time__range=[last_7_day_first_second, today_first_second]
-    ).values('query', 'search_time', 'language', 'category')
+    ).values('query', 'search_time', 'language', 'category', 'id')
     search_history_this_month = Search.objects.filter(
         user=user,
         search_time__range=[last_30_day_first_second, last_7_day_first_second]
-    ).values('query', 'search_time', 'language', 'category')
+    ).values('query', 'search_time', 'language', 'category', 'id')
 
     return JsonResponse({
-        "today": list(search_history_today),
-        "week": list(search_history_this_week),
-        "month": list(search_history_this_month)
+        "today": list(reversed(list(search_history_today))),
+        "week": list(reversed(list(search_history_this_week))),
+        "month": list(reversed(list(search_history_this_month)))
     }, safe=False)

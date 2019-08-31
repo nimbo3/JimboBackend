@@ -21,6 +21,6 @@ from SearchEngine import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('test/', views.index),
-    path('test/history', views.test),
+    path('test/history', views.history),
     url(r'^api/users/', include('accounts.urls')),
 ]
