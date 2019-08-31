@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('test/', views.index),
     path('test/history', views.history),
+    path('test/complete', views.complete),
     url(r'^api/users/', include('accounts.urls')),
 ]

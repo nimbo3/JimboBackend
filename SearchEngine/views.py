@@ -30,6 +30,15 @@ def index(request):
     return HttpResponse(json.dumps(result), content_type="application/json")
 
 
+def complete(request):
+    return JsonResponse([
+        "salam",
+        "khoobi",
+        "alishir",
+        "elasticsearch"
+    ], safe=False)
+
+
 def history(request):
     user = None
 
