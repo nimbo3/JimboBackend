@@ -1,7 +1,7 @@
 import json
-from _ast import keyword
+from datetime import datetime, timedelta
 
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from rest_framework.authtoken.models import Token
 
 from SearchEngine.models import Search
@@ -15,9 +15,7 @@ def index(request):
     user = None
 
     token_header = request.headers.get("authorization")
-    print(token_header)
     token = Token.objects.filter(key=token_header)
-    print(token)
     if len(token) != 0:
         user = token[0].user
 
@@ -33,4 +31,39 @@ def index(request):
 
 
 def history(request):
-    pass
+    user = None
+
+    token_header = request.headers.get("authorization")
+    token = Token.objects.filter(key=token_header)
+    if len(token) != 0:
+        user = token[0].user
+    if user is None:
+        return HttpResponse(json.dumps({
+            "Error": "you not logged in"
+        }), status=401)
+
+    today_first_second = datetime(year=datetime.now().year,
+                                  month=datetime.now().month,
+                                  day=datetime.now().day,
+                                  hour=0, minute=0, second=0)
+
+    last_7_day_first_second = today_first_second - timedelta(days=6)
+    last_30_day_first_second = today_first_second - timedelta(days=29)
+    search_history_today = Search.objects.filter(
+        user=user,
+        search_time__range=[today_first_second, datetime.now()]
+    ).values('query', 'search_time', 'language', 'category')
+    search_history_this_week = Search.objects.filter(
+        user=user,
+        search_time__range=[last_7_day_first_second, today_first_second]
+    ).values('query', 'search_time', 'language', 'category')
+    search_history_this_month = Search.objects.filter(
+        user=user,
+        search_time__range=[last_30_day_first_second, last_7_day_first_second]
+    ).values('query', 'search_time', 'language', 'category')
+
+    return JsonResponse({
+        "today": list(search_history_today),
+        "week": list(search_history_this_week),
+        "month": list(search_history_this_month)
+    }, safe=False)
