@@ -204,7 +204,7 @@
       <workItem from="1566893679679" duration="20844000" />
       <workItem from="1567220801684" duration="13151000" />
       <workItem from="1567249817278" duration="4380000" />
-      <workItem from="1567317725400" duration="4562000" />
+      <workItem from="1567317725400" duration="5107000" />
     </task>
     <task id="LOCAL-00001" summary="create serializers for account">
       <created>1565763968873</created>
@@ -479,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567326128080</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="ip is public">
+      <created>1567326281208</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1567326281208</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,7 +506,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="maskhare" />
     <MESSAGE value="create search log models" />
     <MESSAGE value="create search model choices" />
     <MESSAGE value="move search model from account to search engine" />
@@ -524,7 +530,8 @@
     <MESSAGE value="auto complete test function added" />
     <MESSAGE value="autocomplete connected" />
     <MESSAGE value="ready for publish" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready for publish" />
+    <MESSAGE value="ip is public" />
+    <option name="LAST_COMMIT_MESSAGE" value="ip is public" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
