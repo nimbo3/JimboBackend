@@ -1,4 +1,4 @@
-import json
+import json, requests
 from datetime import datetime, timedelta
 
 from django.http import HttpResponse, JsonResponse
@@ -31,12 +31,11 @@ def index(request):
 
 
 def complete(request):
-    return JsonResponse([
-        "salam",
-        "khoobi",
-        "alishir",
-        "elasticsearch"
-    ], safe=False)
+    # return JsonResponse([
+    #     "salam", "salammm", "sala", "salaaam"
+    # ], safe=False)
+    response = requests.get("http://server-master:1478/suggest?suggest=" + request.GET.get("q"))
+    return JsonResponse(response.json(), safe=False)
 
 
 def history(request):
