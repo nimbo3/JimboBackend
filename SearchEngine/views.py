@@ -36,6 +36,7 @@ def complete(request):
     # ], safe=False)
     # response = requests.get("http://localhost:1478/suggest?suggest=" + request.GET.get("q"))
     response = requests.get("http://46.4.40.237:1478/suggest?suggest=" + request.GET.get("q"))
+    print("autocomplete request: " + response.text)
     return JsonResponse(response.json(), safe=False)
 
 
