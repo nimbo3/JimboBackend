@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c16886a1-f971-4b54-8ee3-35594157a240" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SearchEngine/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngine/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -204,7 +203,7 @@
       <workItem from="1566893679679" duration="20844000" />
       <workItem from="1567220801684" duration="13151000" />
       <workItem from="1567249817278" duration="4380000" />
-      <workItem from="1567317725400" duration="5107000" />
+      <workItem from="1567317725400" duration="5402000" />
     </task>
     <task id="LOCAL-00001" summary="create serializers for account">
       <created>1565763968873</created>
@@ -486,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567326281208</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Ashqal">
+      <created>1567326828190</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1567326828190</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +512,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create search log models" />
     <MESSAGE value="create search model choices" />
     <MESSAGE value="move search model from account to search engine" />
     <MESSAGE value="save search history" />
@@ -531,7 +536,8 @@
     <MESSAGE value="autocomplete connected" />
     <MESSAGE value="ready for publish" />
     <MESSAGE value="ip is public" />
-    <option name="LAST_COMMIT_MESSAGE" value="ip is public" />
+    <MESSAGE value="Ashqal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ashqal" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
