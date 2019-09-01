@@ -34,8 +34,8 @@ def complete(request):
     # return JsonResponse([
     #     "salam", "salammm", "sala", "salaaam"
     # ], safe=False)
-    response = requests.get("http://localhost:1478/suggest?suggest=" + request.GET.get("q"))
-    # response = requests.get("http://46.4.40.237:1478/suggest?suggest=" + request.GET.get("q"))
+    # response = requests.get("http://localhost:1478/suggest?suggest=" + request.GET.get("q"))
+    response = requests.get("http://46.4.40.237:1478/suggest?suggest=" + request.GET.get("q"))
     return JsonResponse(response.json(), safe=False)
 
 
