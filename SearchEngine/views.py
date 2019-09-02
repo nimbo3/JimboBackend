@@ -31,12 +31,16 @@ def index(request):
 
 
 def complete(request):
-    # return JsonResponse([
-    #     "salam", "salammm", "sala", "salaaam"
-    # ], safe=False)
     # response = requests.get("http://localhost:1478/suggest?suggest=" + request.GET.get("q"))
     response = requests.get("http://46.4.40.237:1478/suggest?suggest=" + request.GET.get("q"))
     print("autocomplete request: " + response.text)
+    return JsonResponse(response.json(), safe=False)
+
+
+def top_pages(request):
+    category = request.GET.get("category")
+    url = "http://server-master:1478/top?category=" + category
+    response = requests.get(url)
     return JsonResponse(response.json(), safe=False)
 
 
