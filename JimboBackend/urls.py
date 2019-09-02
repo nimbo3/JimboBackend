@@ -24,5 +24,6 @@ urlpatterns = [
     path('test/history', views.history),
     path('test/top', views.top_pages),
     path('test/complete', views.complete),
+    path('test/suggest', views.suggestion),
     url(r'^api/users/', include('accounts.urls')),
 ]

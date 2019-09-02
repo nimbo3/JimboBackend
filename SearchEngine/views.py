@@ -81,3 +81,31 @@ def history(request):
         "week": list(reversed(list(search_history_this_week))),
         "month": list(reversed(list(search_history_this_month)))
     }, safe=False)
+
+
+def suggestion(request):
+    user = None
+    token_header = request.headers.get("authorization")
+    token = Token.objects.filter(key=token_header)
+    if len(token) != 0:
+        user = token[0].user
+    if user is None:
+        return HttpResponse(json.dumps({
+            "Error": "you not logged in"
+        }), status=401)
+
+    technology_count = len(Search.objects.filter(user=user, category="technology"))
+    art_count = len(Search.objects.filter(user=user, category="art"))
+    sport_count = len(Search.objects.filter(user=user, category="sport"))
+    health_count = len(Search.objects.filter(user=user, category="health"))
+    economics_count = len(Search.objects.filter(user=user, category="economics"))
+
+    category_list = tuple(reversed(sorted((
+        (technology_count, "technology"),
+        (art_count, "art"),
+        (sport_count, "sport"),
+        (health_count, "health"),
+        (economics_count, "economics")
+    ))))
+
+    return HttpResponse(category_list[0][1])
