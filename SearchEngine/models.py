@@ -18,7 +18,7 @@ class Search(models.Model):
     CATEGORY_CHOICES = (
         ('economics', 'Economics'),
         ('health', 'Health'),
-        ('sport', 'Sport'),
+        ('sports', 'Sport'),
         ('technology', 'Technology'),
         ('art', 'Art'),
     )

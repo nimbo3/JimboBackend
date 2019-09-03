@@ -96,16 +96,18 @@ def suggestion(request):
 
     technology_count = len(Search.objects.filter(user=user, category="technology"))
     art_count = len(Search.objects.filter(user=user, category="art"))
-    sport_count = len(Search.objects.filter(user=user, category="sport"))
+    sport_count = len(Search.objects.filter(user=user, category="sports"))
     health_count = len(Search.objects.filter(user=user, category="health"))
     economics_count = len(Search.objects.filter(user=user, category="economics"))
 
     category_list = tuple(reversed(sorted((
         (technology_count, "technology"),
         (art_count, "art"),
-        (sport_count, "sport"),
+        (sport_count, "sports"),
         (health_count, "health"),
         (economics_count, "economics")
     ))))
 
-    return HttpResponse(category_list[0][1])
+    return JsonResponse({
+        "suggest": category_list[0][1]
+    })
