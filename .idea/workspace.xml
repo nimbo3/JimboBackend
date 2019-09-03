@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c16886a1-f971-4b54-8ee3-35594157a240" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SearchEngine/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngine/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SearchEngine/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngine/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elastic/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/elastic/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +204,7 @@
       <workItem from="1566893679679" duration="20844000" />
       <workItem from="1567220801684" duration="13151000" />
       <workItem from="1567249817278" duration="4380000" />
-      <workItem from="1567317725400" duration="22465000" />
+      <workItem from="1567317725400" duration="26180000" />
     </task>
     <task id="LOCAL-00001" summary="create serializers for account">
       <created>1565763968873</created>
@@ -529,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567413376759</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="suggestion debugged and sport renamed to sports">
+      <created>1567483370518</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1567483370518</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +555,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change result models and add to admin panel" />
     <MESSAGE value="create run script" />
     <MESSAGE value="update requirements" />
     <MESSAGE value="change elastic search server" />
@@ -574,7 +579,8 @@
     <MESSAGE value="debugged" />
     <MESSAGE value="top pages added" />
     <MESSAGE value="category suggestion completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="category suggestion completed" />
+    <MESSAGE value="suggestion debugged and sport renamed to sports" />
+    <option name="LAST_COMMIT_MESSAGE" value="suggestion debugged and sport renamed to sports" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
