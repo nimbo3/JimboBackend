@@ -20,7 +20,7 @@ class Search(models.Model):
         ('health', 'Health'),
         ('sports', 'Sport'),
         ('technology', 'Technology'),
-        ('art', 'Art'),
+        ('arts', 'Arts'),
     )
 
     user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
