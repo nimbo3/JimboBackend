@@ -39,7 +39,7 @@ def complete(request):
 
 def top_pages(request):
     category = request.GET.get("category")
-    url = "http://server-master:1478/top?category=" + category
+    url = "http://46.4.40.237:1478/top?category=" + category
     response = requests.get(url)
     return JsonResponse(response.json(), safe=False)
 

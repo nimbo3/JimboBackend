@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c16886a1-f971-4b54-8ee3-35594157a240" name="Default Changelist" comment="" />
+    <list default="true" id="c16886a1-f971-4b54-8ee3-35594157a240" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SearchEngine/migrations/0006_auto_20190903_0524.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +203,7 @@
       <workItem from="1566893679679" duration="20844000" />
       <workItem from="1567220801684" duration="13151000" />
       <workItem from="1567249817278" duration="4380000" />
-      <workItem from="1567317725400" duration="26706000" />
+      <workItem from="1567317725400" duration="27077000" />
     </task>
     <task id="LOCAL-00001" summary="create serializers for account">
       <created>1565763968873</created>
@@ -539,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567487626341</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="art changed to arts">
+      <created>1567488147964</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1567488147964</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +568,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update requirements" />
     <MESSAGE value="change elastic search server" />
     <MESSAGE value="change elastic server to server 3" />
     <MESSAGE value="get auth token from header and save to db" />
@@ -584,7 +592,8 @@
     <MESSAGE value="category suggestion completed" />
     <MESSAGE value="suggestion debugged and sport renamed to sports" />
     <MESSAGE value="query to java spark" />
-    <option name="LAST_COMMIT_MESSAGE" value="query to java spark" />
+    <MESSAGE value="art changed to arts" />
+    <option name="LAST_COMMIT_MESSAGE" value="art changed to arts" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
